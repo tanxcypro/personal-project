@@ -9,7 +9,9 @@ img{
     width: 50px;
     padding-top: 6px;
     display: flex;
-    padding-left: 30px;
+    justify-content: center;
+    cursor: pointer;
+    
 
 }
 nav div {
@@ -110,6 +112,9 @@ nav .kiri a {
    
     
 }
+.content .box img{
+    width:100%;
+}
 .card .left{
     background-color: rgb(252, 252, 248);
     flex: 61%;
@@ -158,4 +163,7 @@ nav .kiri a {
     padding-left: 5px;
     cursor: pointer;
     width: 40px;
+}
+table{
+    border-radius: 10px;
 }
